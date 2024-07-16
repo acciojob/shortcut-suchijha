@@ -1,5 +1,12 @@
 function shortcut(s1, s2) {
-  // your code here
+  if (s1.length === 0 || s2.length === 0) {
+    return "";
+}
+	let firstCharStr1 = s1[0];
+let firstCharStr2 = s2[0];
+	let output = firstCharStr1 + firstCharStr2;
+	return output;
+	
 }
 
 // Do not change the code below.
